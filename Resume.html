@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .top{
+            background-color: pink;
+            height: 70px;
+            width: 100%;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding-top: 10px;
+            position: relative;
+            border-radius: 10%;
+            animation-name: examples;
+            animation-duration: 1000ms;
+        }
+        @keyframes examples{
+            0%   {right:600px;}
+            
+            100% {right:0px;}
+        }
+        .container {
+            max-width: 1000px;
+            margin: 10px auto;
+            background-color: #ec080805;
+            padding: 10px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+        }
+        header{
+            color: rgb(68, 67, 67);
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 20px 0px 0px 50px;
+        }
+        
+        div .name-space{
+            flex: 75%;
+            text-align: top;
+            padding-left: 20%;
+            font-size: 60px; 
+        }
+        div .img-space{
+            flex: 25%;
+        }
+        img{
+            border-radius: 50%;
+            border: 5px solid black;
+            height: 30%;
+
+        }
+
+        div .vl{
+            border-left: 1px solid; /* vertical line in the page */
+
+        }
+
+        div .sections{
+            display: flex;
+        }
+        div .section-info,.section-about,.section-skills,.section-edu,.section-stn,.section-cert,.section-lng,.section-exp{
+            padding: 0px 20px 0px 50px;
+            flex: 50%;
+
+        }
+        #p-about{
+            text-indent: 25%; /* Adjust the percentage as needed */
+        }
+        #clg{
+            padding-left: 40px;
+        }
+        .alt{
+            font-size: 60px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="top"></div><hr>
+        <header>
+            <div class="img-space">
+                <img src="/Itsfizz Digital Intern/Resume_photo.png" alt="PHOTO_GRAPH" title="Photo" width="100%" height="90%">
+            </div>
+            <div class="name-space">
+                <p><b>SAI SUBHASH <br> SUNKAVALLI</b></p>
+            </div>
+        </header>
+
+        <hr>
+
+        <div class="sections">
+            <div class="section-info">
+                <h3>CONTACT INFO.</h3>
+
+                <p><i class="fa-solid fa-envelope"></i> : <a href="subhashchowdary1411@gmail.com">subhashchowdary1411@gmail.com</a></p>
+        
+                <p><i class="fa-sharp fa-solid fa-phone"></i>: <a href="tel:+918247220503">+918247220503</a></p>
+                    
+                <p><i class="fa-brands fa-linkedin" style="color: #000000;"></i> : <a href="https://www.linkedin.com/in/sai-subhash-sunkavalli-a26627272" target="_blank">LinkedIn Profile</a></p>
+
+                <pre style="font-family: Arial, Helvetica, sans-serif;"><i class="fa-solid fa-location-dot"></i> : Kovvur, Andhra Pradesh, India, Pincode : 534350.
+                </pre>
+            </div>
+
+            <div class="vl"></div>
+        
+            <div class="section-about">
+                <h3>ABOUT ME</h3>
+                <p id="p-about"> As a fresher, my objective is to gain valuable experience and
+                    develop my skills in a challenging and dynamic work environment. I
+                    am looking for an opportunity to contribute to a team and
+                    company while gaining practical experience and building a
+                    foundation for a successful career.
+                </p>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="sections">
+            
+            <div class="section-skills">
+                <h3>TECHNICAL SKILLS</h3>
+                <ul>
+                    <li>Front-End Skills 
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Java Script</li>
+                        </ul>
+                    </li>
+                    <li>Back-End Skills
+                        <ul>
+                            <li>Python</li>
+                            <li>C-Language</li>
+                            <li>Basic Java</li>
+                        </ul>
+                    </li>
+                    <li>Database
+                        <ul>
+                            <li>Sql</li>
+                            <li>Mysql</li>
+                        </ul>
+                    </li>
+                </ul>
+                <h3>SOFT SKILLS</h3>  
+                <ul>
+                    <li>Communication Skill</li>
+                    <li>Teamwork Abilities</li>
+                    <li>Problem-Solving Abilities</li>
+                    <li>Adaptability and Flexibility</li>
+                </ul> 
+            </div>
+
+            <div class="vl"></div>
+
+            <div class="section-edu">
+                <h3>EDUCATIONS DETAILS</h3>
+                <ul>
+                    <li>
+                        <h4>Adikavi Nannaya University</h4>
+                        <p id="clg">
+                            Aditya Degree College, Rajahmundry. <br>
+                            Bachelor of Computer Applications (BCA) <br>
+                            2021-2024 <br>
+                            CGPA : 8.1
+                        </p>
+                    </li>
+                    <li>
+                        <h4>Board of Intermediate Education, A P</h4>
+                        <p id="clg">A P Residential Junior College, Vijayapuri South. <br>
+                            2019-2021 (BiPC) <br>
+                            Percentage : 91.8%
+                        </p>
+                    </li>
+                    <li>
+                        <h4>State Board of Secondary Education</h4>
+                        <p id="clg">K G M (EM) High School, Kovvur. <br>
+                            2018-2019 <br>
+                            CGPA : 9.2
+                        </p>
+                    </li>
+                </ul>
+            </div>
+    
+        </div>
+
+        <br>
+
+        <div class="sections">
+            <div class="section-stn">
+                <h3>STRENGHTS</h3>
+                <ul>
+                    <li>Self Motivated</li>
+                    <li>Learning from failures</li>
+                    <li>Creative thinking</li>
+                    <li>Team Player</li>
+                </ul>
+            </div>
+
+            <div class="vl"></div>
+
+            <div class="section-cert">
+                <h3>CERTIFICATES</h3>
+                <ul>
+                    <li> Basic in Python, Sql, Java from Hacker Rank</li>
+                    <li>C-Language from Cisco Networking </li>
+                    <li>Database Foundations from Oracle Academy</li>
+                </ul>
+            </div>
+        </div>
+
+        <br>
+        
+        <div class="sections">
+            <div class="section-lng">
+                <h3>Languages</h3>
+                <ul>
+                    <li>Telugu (Native)</li>
+                    <li>English (Fluent)</li>
+                    <li>Hindi (Begining)</li>
+                </ul>
+                <br>
+                <h3>HOBBIES</h3>
+                <ul>
+                    <li>Playing Football</li>
+                    <li>Watching Movies</li>
+                    <li>listening Music</li>
+                </ul>
+            </div>
+
+            <div class="vl"></div>
+
+            <div class="section-exp">
+                <h3>INTERNSHIP EXPERIENCE</h3>
+                <p id="clg">
+                    <h4>Beta Mobile Game Testing Intern</h4>
+                    <p>Duration : 1 Month &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Position : Intern</p>
+                </p>
+
+                <h3>ACTIVITIES</h3>
+                <ul>
+                    <li>
+                        Effectively led and organized a successful football <br>
+                        tournament, demonstrating strong leadership and <br>
+                        management skills.
+                    </li>
+                    <li>
+                        I'm an NSS volunteer . As NSS volunteer, our team did <br>
+                        many activities that Awareness about Environment.
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+         
+        <div class="sections">
+            <p id="clg">I here by declare that the information stated above is true to the best of my knowledge.</p>
+            <br>
+            <p style="text-align: right;"><h4>Signature : Sai Subhash Sunkavalli</h4></p>
+        </div>
+    </div> 
+</body>
+</html>
